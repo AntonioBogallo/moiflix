@@ -81,21 +81,21 @@ header {
   padding: 50px;
 }
 
-.box {
+.main {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(6, minmax(100px, 1fr));
 }
 
-.box a {
+.main div {
   transition: transform 0.3s;
 }
 
-.box a:hover {
+.main div:hover {
   transition: transform 0.3s;
   transform: scale(1.4);
 }
 
-.box img {
+.main div img {
   border-radius: 2px;
 }
