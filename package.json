@@ -29,6 +29,7 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "firebase": "^9.7.0"
   }
 }

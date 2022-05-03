@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@stylelint/postcss-css-in-js': ^0.38.0
+  dotenv: ^16.0.0
   eslint: ^8.14.0
   eslint-config-standard: 17.0.0-1
   eslint-plugin-import: ^2.26.0
@@ -20,6 +21,7 @@ specifiers:
   vite: ^2.9.7
 
 dependencies:
+  dotenv: 16.0.0
   firebase: 9.7.0
 
 devDependencies:
@@ -1247,6 +1249,11 @@ packages:
       domelementtype: 2.3.0
       domhandler: 4.3.1
     dev: true
+
+  /dotenv/16.0.0:
+    resolution: {integrity: sha512-qD9WU0MPM4SWLPJy/r2Be+2WgQj8plChsyrCNQzW/0WjvcJQiKQJ9mH3ZgB3fxbUUxgc/11ZJ0Fi5KiimWGz2Q==}
+    engines: {node: '>=12'}
+    dev: false
 
   /electron-to-chromium/1.4.131:
     resolution: {integrity: sha512-oi3YPmaP87hiHn0c4ePB67tXaF+ldGhxvZnT19tW9zX6/Ej+pLN0Afja5rQ6S+TND7I9EuwQTT8JYn1k7R7rrw==}
